@@ -6,13 +6,14 @@ Just look at [Dockerfile](./Dockerfile)
 
 ### Build the application
 
-:::: { #build }
+<div id="build">
 
 ```bash
 docker build .
 ```
 
-::::
+</div>
+
 
 ## 2. Launch a container for each created image, making sure, that the app inside the container works correctly and is usable.
 
@@ -38,13 +39,13 @@ command.
 
 1.  Create the container with the name
 
-    :::: { #named-run }
+    <div id="named-run">
 
     ```bash
     docker run -i -t --name python_test <ID>
     ```
 
-    ::::
+    </div>
 
 ## 4. Clean up (remove) all stopped (and running) containers, clean up all created images.
 
